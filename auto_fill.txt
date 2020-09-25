@@ -1,0 +1,25 @@
+//要填入的信息
+rawInfo = {"jcjgqr":"0","sfjcjwggry":"0","szcs":"","szgj":"","sfcysjh":"0","dqszyqfxdj":"3","dzjkmys":"3","sffx":"","nj":"","njqt":"","zybj":"","xslb":"","sfbys":"","cjtw":"","wjtw":"","wujtw":"","sfywcxyxd":"0","sffdypz":"0","cxsj":"","fxsj":"","cxyy":"","ddd":"","tjd":"","cxjtfs":"","cxjtfsqt":"","ywqtsm":"0","xxqk":"","sfjcyqzgfxdq":"0","sfjtyqzgfxdq":"0","tw":"2","sfcxtz":"0","sfjcbh":"0","sfcxzysx":"0","qksm":"","sfyyjc":"0","remark":"","address":"\u9655\u897f\u7701\u897f\u5b89\u5e02\u705e\u6865\u533a\u6d2a\u5e86\u8857\u9053\u5174\u4e1a\u94f6\u884c(\u822a\u5929\u56db\u9662\u793e\u533a\u652f\u884c)\u65ed\u82d1\u5c0f\u533a","geo_api_info":"\"{\\\"type\\\":\\\"complete\\\",\\\"position\\\":{\\\"P\\\":34.305900607639,\\\"O\\\":109.12946044921898,\\\"lng\\\":109.12946,\\\"lat\\\":34.305901},\\\"location_type\\\":\\\"html5\\\",\\\"message\\\":\\\"Get geolocation success.Convert Success.Get address success.\\\",\\\"accuracy\\\":20,\\\"isConverted\\\":true,\\\"status\\\":1,\\\"addressComponent\\\":{\\\"citycode\\\":\\\"029\\\",\\\"adcode\\\":\\\"610111\\\",\\\"businessAreas\\\":[{\\\"name\\\":\\\"\u6d2a\u5e86\\\",\\\"id\\\":\\\"610111\\\",\\\"location\\\":{\\\"P\\\":34.31446,\\\"O\\\":109.116174,\\\"lng\\\":109.116174,\\\"lat\\\":34.31446}}],\\\"neighborhoodType\\\":\\\"\\\",\\\"neighborhood\\\":\\\"\\\",\\\"building\\\":\\\"\\\",\\\"buildingType\\\":\\\"\\\",\\\"street\\\":\\\"\u5b87\u822a\u4e1c\u8def\\\",\\\"streetNumber\\\":\\\"416\u53f7\\\",\\\"province\\\":\\\"\u9655\u897f\u7701\\\",\\\"city\\\":\\\"\u897f\u5b89\u5e02\\\",\\\"district\\\":\\\"\u705e\u6865\u533a\\\",\\\"township\\\":\\\"\u6d2a\u5e86\u8857\u9053\\\"},\\\"formattedAddress\\\":\\\"\u9655\u897f\u7701\u897f\u5b89\u5e02\u705e\u6865\u533a\u6d2a\u5e86\u8857\u9053\u5174\u4e1a\u94f6\u884c(\u822a\u5929\u56db\u9662\u793e\u533a\u652f\u884c)\u65ed\u82d1\u5c0f\u533a\\\",\\\"roads\\\":[],\\\"crosses\\\":[],\\\"pois\\\":[],\\\"info\\\":\\\"SUCCESS\\\"}\"","area":"\u9655\u897f\u7701 \u897f\u5b89\u5e02 \u705e\u6865\u533a","province":"\u9655\u897f\u7701","city":"\u897f\u5b89\u5e02","sfzx":"0","sfjcwhry":"0","sfjchbry":"0","sfcyglq":"0","gllx":"","glksrq":"","jcbhlx":"","jcbhrq":"","bztcyy":"","sftjhb":"0","sftjwh":"0","cysjh":"15339220692","jcjg":"","date":"20200902","uid":"302503","created":1599004827,"jcqzrq":"","sfjcqz":"","szsqsfybl":"0","sfsqhzjkk":0,"sqhzjkkys":"","sfygtjzzfj":0,"gtjzzfjsj":"","ismoved":"0","created_uid":0,"id":10075100}
+
+vm.info.sfzx = 0;
+vm.setSfzgn(1);
+
+//vm.getLocation();
+//定位信息
+waploading('hide');
+vm.info.geo_api_info = JSON.stringify(rawInfo.geo_api_info);
+vm.info.address = rawInfo.address;
+vm.info.area = rawInfo.area;
+vm.info.province = rawInfo.province;
+vm.info.city = rawInfo.city;
+
+vm.info.tw=2;
+vm.info.sftjwh=0;
+vm.info.sftjhb=0;
+vm.info.jcjgqr=0;
+vm.info.sfcxtz=0;
+vm.info.sfjcwhry=0;
+vm.info.sfjchbry=0;
+vm.info.sfjcbh=0;
+vm.info.sfcyglq=0;
+vm.info.sfcxzysx=0;

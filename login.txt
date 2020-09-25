@@ -1,0 +1,3 @@
+﻿document.getElementById("userName").value = '账号';
+document.getElementById("passWord").value = '密码';
+document.getElementById("login-btn").form.submit();
